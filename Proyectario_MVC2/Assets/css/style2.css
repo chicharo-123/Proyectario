@@ -1,0 +1,213 @@
+body{
+    background-image: url(img/blanco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mirza', cursive;
+    text-align: center;
+
+}
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border:1px solid #eee;
+    margin: 20px auto;
+}
+input[type="subtmit"]{
+    padding: 10px;
+    color: #fff;
+    background: #cb2f00;
+    width: 320px;
+    margin:20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="subtmit"]:haver{
+    background-color: #eb5e00;
+}
+/*
+header {
+    border-bottom: 2px solid#eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: #eb5e00;
+}
+
+*/
+
+
+
+
+
+
+
+
+/* cuadro transparente principal*/
+.formulario{
+    background: rgba(0,0,0,.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,.568);
+    color: white;
+    
+}
+
+/*secciones o campos*/
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    background: none;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border:1px solid #f0f0f0;
+    /*background: rgba(0,0,0,.3);*/
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control input::placeholder{
+    color: white;
+}
+
+.form-control input:focus{
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control.error input{
+    border-color: #ce1e0b;
+}
+
+.form-control.success input{
+    border-color: #079e6cf8;  
+}
+
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #ce1e0b;
+    visibility: visible;
+}
+
+.form-control small {
+    position: absolute;
+    /*top: 115px;
+    float: left; 
+    padding: 1em;  
+    text-align:left;*/
+    visibility: hidden;
+}
+
+.form-control.error small{
+    color: #ce1e0b;
+    /*background-color: none;*/
+    visibility: visible;
+    text-align: left;
+    /*display: inline-block;*/
+    transform: translateX(-50%);
+    width: 300px;
+    
+}
+
+/*
+.ingresar{
+    background: #222A3F;
+    padding: 10px;
+    font-size: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,.568);
+    transition: 0.5s ease-in;
+}
+.ingresar:haver{
+    color: white;
+}
+.olvide{
+    color:white;
+}
+.olvide:haver{
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.olvide1{
+    background: rgba(0,0,0,.3);
+    color:white;
+    font-size:20px;
+    font-weight: 700!important;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius:10px
+    
+}
+.olvide1:haver{
+    text-decoration-style: none;
+    text-decoration-line: none;
+   
+    
+    cursor: pointer;
+}
+
+
+/*
+.form-control{
+    background: rgba(0,0,0,.3);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+
+.form-control.error{
+    border-color: #e74c3c;
+}
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+*/
